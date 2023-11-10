@@ -1,0 +1,33 @@
+.imageGallitem img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+.imageGall {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+.imageGallitem {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  object-fit: cover;
+}
+.imageGallitem button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 10px;
+}
+.imageGallitem button {
+  position: absolute;
+  top: 0px;
+  right: 4px;
+  font-size: 20px;
+  color: red;
+  padding: 0;
+  border: none;
+}
